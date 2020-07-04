@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="308dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Maximum Borrow Book Quantity:"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtQuantity_GeneralEdit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:orientation="horizontal"></LinearLayout>
+
+    <Button
+        android:id="@+id/btnUpdateQuantity_GeneralEdit"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="UPDATE" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:orientation="horizontal"></LinearLayout>
+
+    <Button
+        android:id="@+id/btnChangePassword_GeneralEdit"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:text="CHANGE PASSWORD" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="143dp"
+        android:orientation="horizontal"></LinearLayout>
+
+    <Button
+        android:id="@+id/btnSignOut_GeneralEdit"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="SIGN OUT" />
+</LinearLayout>
