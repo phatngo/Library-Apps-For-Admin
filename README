@@ -13,8 +13,7 @@ This app is for administrators, the funtions are:
 
 +) To use this app, you just need to:
 1) Dowload the code source
-2) Run the code on Android Studio using a real android phone (I am sorry that we can not use it on the emulator due to the use of firebase authentication)
-3) Go to Settings on your device and allow the app to use camera
+2) Run the code on Android Studio using a real android phone (I am sorry that we can not use it on an emulator due to the use of firebase authentication)
 3) Sign in with the following info
         Account: capsulecrmdoan1@gmail.com
         Password: 123456
